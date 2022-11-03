@@ -1,10 +1,12 @@
 *{
-    margin:0;
+    margin:3;
     padding: 0;
     box-sizing: border-box;
 }
 .padre{
+    font-family:Arial, Helvetica, sans-serif Arial;
     display: grid;
+    color:rgb(255, 255, 255);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-template-areas: 
@@ -16,37 +18,37 @@
     ;
 }
 .header{
-    background-color: aqua;
+    background-color: rgb(119, 65, 182);
     grid-area: header;
     margin: 10px;
     padding:10px;
 }
 .sectionA{
-    background-color: cornflowerblue;
+    background-color: rgb(69, 19, 207);
     grid-area:sectionA ;
     margin: 10px;
     padding:10px;
 }
 .sectionB{
-    background-color: rgb(22, 81, 191);
+    background-color: rgb(89, 59, 197);
     grid-area:sectionB ;
     margin: 10px;
     padding:10px;
 }
 .article1{
-    background-color: yellow;
+    background-color: rgb(177, 42, 218);
     grid-area: article1;
     margin: 10px;
     padding:10px;
 }
 .article2{
-    background-color: rgb(105, 228, 52);
+    background-color: rgb(221, 98, 211);
     grid-area: article2;
     margin: 10px;
     padding:10px;
 }
 .aside{
-    background-color: darkgray;
+    background-color: rgb(214, 100, 119);
     grid-area: aside;
     margin: 10px;
     padding:20px;
