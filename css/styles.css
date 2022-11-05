@@ -43,6 +43,7 @@
 }
 .article2{
     background-color: rgb(228, 52, 75);
+    background-image:-moz-repeating-radial-gradient();
     grid-area: article2;
     margin: 10px;
     padding:10px;
@@ -63,5 +64,8 @@ h2{
     margin: 10px;
     padding:20px;
 } 
+
+
+
 
 
